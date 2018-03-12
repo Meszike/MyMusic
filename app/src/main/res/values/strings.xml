@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyMusic</string>
+
+    <string name="greetings">Let\'s play music!</string>
+    <string name="start_button">start</string>
+
+    <!-- type's names -->
+    <string name="category_pop">Pop</string>
+    <string name="category_rock">Rock</string>
+    <string name="category_jazz">Jazz</string>
+    <string name="category_classical">Classical</string>
+    <string name="player">Michael Jackson</string>
+    <string name="title">Bad</string>
+</resources>

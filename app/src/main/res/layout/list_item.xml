@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/List_Item_LinearL1">
+
+
+    <ImageView
+        android:id="@+id/image"
+        style="@style/Image_View"
+        android:src="@mipmap/ic_play_icon" />
+
+    <LinearLayout
+        style="@style/List_Item_LinearL2">
+
+    <TextView
+        android:id="@+id/player"
+        style="@style/List_Text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        tools:text="@string/player" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/List_Text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="@string/title" />
+    </LinearLayout>
+
+</LinearLayout>

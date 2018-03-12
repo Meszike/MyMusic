@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RelativeLayout"
+    tools:context="com.example.popey.mymucic.Activities.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextView_land"
+        android:text="@string/app_name" />
+
+    <Button
+        android:id="@+id/startButton"
+        style="@style/StartButton_Land"
+        android:layout_below="@+id/textView"
+        android:text="@string/start_button" />
+
+    <TextView
+        android:id="@+id/greetings"
+        style="@style/Greetings_land"
+        android:layout_below="@id/startButton"
+        android:text="@string/greetings" />
+
+
+</RelativeLayout>

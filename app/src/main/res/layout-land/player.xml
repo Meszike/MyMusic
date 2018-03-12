@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/RelativeLayout2" >
+
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/SeekBar" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/Player_image_land"
+        android:layout_above="@+id/seekBar"
+        android:src="@drawable/pop_music" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/ToolBar_land"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ImageButton
+        android:id="@+id/ToolBar"
+        style="@style/Image_Button_land"
+        app:srcCompat="@drawable/ic_action_backward" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        style="@style/Image_Button_land"
+        android:layout_toRightOf="@id/imageButton"
+        app:srcCompat="@drawable/ic_action_play2" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        style="@style/Image_Button_land"
+        android:layout_toRightOf="@id/imageButton2"
+        app:srcCompat="@drawable/ic_action_pause" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        style="@style/Image_Button_land"
+        android:layout_toRightOf="@id/imageButton5"
+        app:srcCompat="@drawable/ic_action_forward" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        style="@style/Image_Button_land"
+        android:layout_toRightOf="@id/imageButton3"
+        app:srcCompat="@drawable/ic_action_stop" />
+</RelativeLayout>
