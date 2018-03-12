@@ -43,7 +43,7 @@ public class Musictypes extends AppCompatActivity {
         });
 
         // Find the View that shows the rock category
-       ImageView rock = (ImageView) findViewById(R.id.rock);
+        ImageView rock = (ImageView) findViewById(R.id.rock);
 
         // Set a click listener on that View
         rock.setOnClickListener(new View.OnClickListener() {
@@ -78,7 +78,7 @@ public class Musictypes extends AppCompatActivity {
         ImageView classical = (ImageView) findViewById(R.id.classical);
 
         // Set a click listener on that View
-       classical.setOnClickListener(new View.OnClickListener() {
+        classical.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the phrases category is clicked on.
             @Override
             public void onClick(View view) {

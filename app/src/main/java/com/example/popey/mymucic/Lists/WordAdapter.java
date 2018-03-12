@@ -28,7 +28,7 @@ public class WordAdapter extends ArrayAdapter<Music> {
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
-        if(listItemView == null) {
+        if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
@@ -49,10 +49,8 @@ public class WordAdapter extends ArrayAdapter<Music> {
         playerTextView.setText(currentMusic.getplayer());
 
 
-
         // Return the whole list item layout
         return listItemView;
-
 
 
     }

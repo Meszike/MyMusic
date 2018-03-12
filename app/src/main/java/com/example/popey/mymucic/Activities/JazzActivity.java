@@ -33,16 +33,16 @@ public class JazzActivity extends AppCompatActivity {
         // Create  a list of words
         ArrayList<Music> musics = new ArrayList<Music>();
 
-        musics.add( new Music("Dave Brubeck ", "Take Five"));
-        musics.add( new Music("Louis Armstrong ", "What a Wonderful World"));
-        musics.add( new Music("John Coltrane Quartet ", "Acknowledgment"));
-        musics.add( new Music("Dave Brubeck", "My Favorite Things"));
-        musics.add( new Music("Kenny Burrell ", "All Blues"));
-        musics.add( new Music("Maynard Ferguson ", "Birdland"));
-        musics.add( new Music("Nina Simone ", "Strange Fruit"));
-        musics.add( new Music("Benny Goodman and His Orchestra ", "Sing, Sing, Sing"));
-        musics.add( new Music("Hermao Feriera ", "Song for My Father"));
-        musics.add( new Music("Miles Davis", "So What"));
+        musics.add(new Music("Dave Brubeck ", "Take Five"));
+        musics.add(new Music("Louis Armstrong ", "What a Wonderful World"));
+        musics.add(new Music("John Coltrane Quartet ", "Acknowledgment"));
+        musics.add(new Music("Dave Brubeck", "My Favorite Things"));
+        musics.add(new Music("Kenny Burrell ", "All Blues"));
+        musics.add(new Music("Maynard Ferguson ", "Birdland"));
+        musics.add(new Music("Nina Simone ", "Strange Fruit"));
+        musics.add(new Music("Benny Goodman and His Orchestra ", "Sing, Sing, Sing"));
+        musics.add(new Music("Hermao Feriera ", "Song for My Father"));
+        musics.add(new Music("Miles Davis", "So What"));
 
         // Create a WordAdapter
 

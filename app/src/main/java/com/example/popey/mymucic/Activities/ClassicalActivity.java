@@ -18,7 +18,7 @@ import java.util.ArrayList;
  * Created by POPEY on 2018. 03. 06..
  */
 
-public class ClassicalActivity  extends AppCompatActivity {
+public class ClassicalActivity extends AppCompatActivity {
 
     ListView list;
 
@@ -32,16 +32,16 @@ public class ClassicalActivity  extends AppCompatActivity {
         // Create  a list of words
         ArrayList<Music> musics = new ArrayList<Music>();
 
-        musics.add( new Music("Gioachino Rossini ", "Overture to William Tell"));
-        musics.add( new Music("Christian Petzold ", "Minuet in G Major"));
-        musics.add( new Music("Richard Strauss ", "Dawn from Thus Spake Zarathustra"));
-        musics.add( new Music("Ludwig van Beethoven ", "Ode to Joy"));
-        musics.add( new Music("Wolfgang A. Mozart ", "Eine Kleine Nachtmusik "));
-        musics.add( new Music("Johann S. Bach ", "Toccata in d minor"));
-        musics.add( new Music("Richard Wagner ", "Ride of the Valkyries"));
-        musics.add( new Music("George F. Handel ", "kHallelujah Chorus"));
-        musics.add( new Music("Richard Wagner ", "Here Comes the Bride"));
-        musics.add( new Music("Ludwig van Beethoven ", "Symphony #5"));
+        musics.add(new Music("Gioachino Rossini ", "Overture to William Tell"));
+        musics.add(new Music("Christian Petzold ", "Minuet in G Major"));
+        musics.add(new Music("Richard Strauss ", "Dawn from Thus Spake Zarathustra"));
+        musics.add(new Music("Ludwig van Beethoven ", "Ode to Joy"));
+        musics.add(new Music("Wolfgang A. Mozart ", "Eine Kleine Nachtmusik "));
+        musics.add(new Music("Johann S. Bach ", "Toccata in d minor"));
+        musics.add(new Music("Richard Wagner ", "Ride of the Valkyries"));
+        musics.add(new Music("George F. Handel ", "kHallelujah Chorus"));
+        musics.add(new Music("Richard Wagner ", "Here Comes the Bride"));
+        musics.add(new Music("Ludwig van Beethoven ", "Symphony #5"));
 
         // Create a WordAdapter
 
@@ -68,7 +68,6 @@ public class ClassicalActivity  extends AppCompatActivity {
 
 
     }
-
 
 
 }

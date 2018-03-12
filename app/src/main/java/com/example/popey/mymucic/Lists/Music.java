@@ -16,7 +16,7 @@ public class Music {
      */
     private String mTitle;
 
-    public Music (String player, String title) {
+    public Music(String player, String title) {
         mPlayer = player;
         mTitle = title;
     }

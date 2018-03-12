@@ -20,7 +20,7 @@ import java.util.ArrayList;
 
 public class RockActivity extends AppCompatActivity {
 
-   ListView list;
+    ListView list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,16 +32,16 @@ public class RockActivity extends AppCompatActivity {
         // Create  a list of words
         ArrayList<Music> musics = new ArrayList<Music>();
 
-        musics.add( new Music("Led Zeppelin", "Stairway To Heaven"));
-        musics.add( new Music("Queen", "Bohemian Rhapsody"));
-        musics.add( new Music("Lynyrd Skynyrd ", "Free Bird"));
-        musics.add( new Music("Deep Purple ", "Smoke On The Water"));
-        musics.add( new Music("Pink Floyd ", "Comfortably Numb"));
-        musics.add( new Music("Led Zeppelin ", "Kashmir"));
-        musics.add( new Music("Rainbow", "Stargazer"));
-        musics.add( new Music("Guns N' Roses ", "Sweet Child O' Mine"));
-        musics.add( new Music("Ac/Dc", "Back In Black"));
-        musics.add( new Music("Black Sabbath ", "Paranoid"));
+        musics.add(new Music("Led Zeppelin", "Stairway To Heaven"));
+        musics.add(new Music("Queen", "Bohemian Rhapsody"));
+        musics.add(new Music("Lynyrd Skynyrd ", "Free Bird"));
+        musics.add(new Music("Deep Purple ", "Smoke On The Water"));
+        musics.add(new Music("Pink Floyd ", "Comfortably Numb"));
+        musics.add(new Music("Led Zeppelin ", "Kashmir"));
+        musics.add(new Music("Rainbow", "Stargazer"));
+        musics.add(new Music("Guns N' Roses ", "Sweet Child O' Mine"));
+        musics.add(new Music("Ac/Dc", "Back In Black"));
+        musics.add(new Music("Black Sabbath ", "Paranoid"));
 
         // Create a WordAdapter
 

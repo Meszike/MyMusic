@@ -53,19 +53,17 @@ public class PopActivity extends AppCompatActivity {
         listView.setAdapter(adapter);
 
         //Set the list item click
-     listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-         @Override
-         public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-             Intent playerIntent = new Intent(PopActivity.this, Player_activity.class);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent playerIntent = new Intent(PopActivity.this, Player_activity.class);
 
-             // Start the new activity
-             startActivity(playerIntent);
-         }
-     });
+                // Start the new activity
+                startActivity(playerIntent);
+            }
+        });
 
     }
-
-
 
 
 }

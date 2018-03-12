@@ -16,10 +16,10 @@
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
+        style="@style/ToolBar"
         android:layout_below="@+id/seekBar"
         android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        style="@style/ToolBar"/>
+        android:theme="?attr/actionBarTheme" />
 
     <ImageButton
         android:id="@+id/imageButton"

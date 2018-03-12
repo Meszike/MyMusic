@@ -13,26 +13,26 @@
         <ImageView
             android:id="@+id/pop"
             style="@style/CategoryStyle_land"
-            android:scaleType="center"
-            android:background="@drawable/pop_music" />
+            android:background="@drawable/pop_music"
+            android:scaleType="center" />
 
         <ImageView
             android:id="@+id/rock"
-            android:scaleType="center"
             style="@style/CategoryStyle_land"
-            android:background="@drawable/rock" />
+            android:background="@drawable/rock"
+            android:scaleType="center" />
 
         <ImageView
             android:id="@+id/jazz"
-            android:scaleType="center"
             style="@style/CategoryStyle_land"
-            android:background="@drawable/jazz" />
+            android:background="@drawable/jazz"
+            android:scaleType="center" />
 
         <ImageView
             android:id="@+id/classical"
-            android:scaleType="centerCrop"
             style="@style/CategoryStyle_land"
-            android:background="@drawable/classical" />
+            android:background="@drawable/classical"
+            android:scaleType="centerCrop" />
     </LinearLayout>
 
 
