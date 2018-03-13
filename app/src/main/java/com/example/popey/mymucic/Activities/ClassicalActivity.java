@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ImageView;
 import android.widget.ListView;
 
 import com.example.popey.mymucic.Lists.Music;
@@ -59,7 +58,7 @@ public class ClassicalActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent playerIntent = new Intent(ClassicalActivity.this, Player_activity.class);
+                Intent playerIntent = new Intent(ClassicalActivity.this, PlayerActivity.class);
 
                 // Start the new activity
                 startActivity(playerIntent);

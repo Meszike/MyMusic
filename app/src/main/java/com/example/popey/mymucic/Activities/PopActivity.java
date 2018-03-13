@@ -5,11 +5,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ImageView;
 import android.widget.ListView;
 
 import com.example.popey.mymucic.Lists.Music;
-import com.example.popey.mymucic.Lists.Musictypes;
 import com.example.popey.mymucic.R;
 import com.example.popey.mymucic.Lists.WordAdapter;
 
@@ -19,12 +17,17 @@ import java.util.ArrayList;
  * Created by POPEY on 2018. 03. 06..
  */
 
+
+
 public class PopActivity extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.song_list);
+
 
         // Create  a list of words
         ArrayList<Music> musics = new ArrayList<Music>();
@@ -56,7 +59,7 @@ public class PopActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent playerIntent = new Intent(PopActivity.this, Player_activity.class);
+                Intent playerIntent = new Intent(PopActivity.this, PlayerActivity.class);
 
                 // Start the new activity
                 startActivity(playerIntent);

@@ -49,4 +49,13 @@
         style="@style/Image_Button"
         android:layout_toRightOf="@id/imageButton3"
         app:srcCompat="@drawable/ic_action_stop" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_marginStart="31dp"
+        app:srcCompat="@drawable/ic_action_back" />
 </RelativeLayout>

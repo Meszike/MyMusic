@@ -52,7 +52,7 @@
         </activity>
 
         <activity
-            android:name=".Activities.Player_activity" >
+            android:name=".Activities.PlayerActivity" >
         </activity>
 
 

@@ -61,7 +61,7 @@ public class JazzActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
-                Intent playerIntent = new Intent(JazzActivity.this, Player_activity.class);
+                Intent playerIntent = new Intent(JazzActivity.this, PlayerActivity.class);
 
                 // Start the new activity
                 startActivity(playerIntent);
